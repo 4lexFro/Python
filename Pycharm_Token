@@ -1,1 +1,19 @@
-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
+
+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
+
+
+create a new repository on the command line:
+
+echo "# Python" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/4lexFro/Python.git
+git push -u origin main
+
+push an existing repository from the command line:
+
+git remote add origin https://github.com/4lexFro/Python.git
+git branch -M main
+git push -u origin main
